@@ -5,3 +5,4 @@ __pycache__/
 .workbuddy/
 .DS_Store
 Thumbs.db
+.env
