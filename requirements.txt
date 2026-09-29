@@ -1,0 +1,21 @@
+# 核心 Web 交互与界面
+# >=1.49.0 起支持 st.image(width=...) 参数（替代已弃用的 use_container_width）
+streamlit>=1.49.0
+
+# 大模型接口 (兼容 OpenAI 协议: 支持 DeepSeek, 通义千问, Kimi, 智谱, 硅基流动等)
+openai>=1.30.0
+
+# 语音合成 (Edge-TTS, 免费高品质青年男声, 免 Key)
+edge-tts>=6.1.12
+asyncio>=3.4.3
+
+# 语音识别 (阿里云百炼 Paraformer, 用于舱二麦克风朗读测评)
+# 与 LLM 共用 DashScope API Key（.env 中的 DASHSCOPE_API_KEY 或 LLM_API_KEY）
+dashscope>=1.20.0
+
+# 图像处理与数据结构
+Pillow>=10.3.0
+pydantic>=2.7.0
+python-dotenv>=1.0.1
+requests>=2.31.0
+nest-asyncio>=1.6.0
